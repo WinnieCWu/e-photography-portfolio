@@ -1,1 +1,0 @@
-# e-photography-portfolio
