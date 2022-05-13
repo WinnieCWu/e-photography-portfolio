@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import Modal from '../Modal';
 
 const PhotoList = ({ category }) => {
     const [photos] = useState([
@@ -125,7 +124,7 @@ const PhotoList = ({ category }) => {
   return (
     <div>
         <div className="flex-row">
-        {photos.map((image, i) => (
+        {currentPhotos.map((image, i) => (
           <img
             //can use incremental naming of images by using 'i'
             src={require(`../../assets/small/${category}/${i}.jpg`).default}

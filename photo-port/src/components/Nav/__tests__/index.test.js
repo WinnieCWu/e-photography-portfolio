@@ -5,11 +5,21 @@ import Nav from '..';
 
 afterEach(cleanup);
 
+// const categories = [
+//     {name: 'portraits', description: 'Portraits of my people in life'}
+// ]
+// const mockCurrentCategory = jest.fn();
+// const mockSetCurrentCategory = jest.fn();
+
 //describe what this suite will be testing
 describe('Nav component', () => {
     // baseline test
     it('renders', () => {
-        render(<Nav />);
+        render(<Nav 
+            // categories={categories}
+            // setCurrentCategory={mockSetCurrentCategory}
+            // currentCategory={mockCurrentCategory}
+        />);
     });
     // snapshot test
     it('matches snapshot', () => {
@@ -32,10 +42,8 @@ describe('Nav component', () => {
         it('inserts text into the links', () => {
           // Arrange
           const { getByTestId } = render(<Nav />);
-
+          // Assert
           expect(getByTestId('link')).toHaveTextContent('Oh Snap!');
           expect(getByTestId('about')).toHaveTextContent('About me');
-
-          // Assert
-        })
+        });
     })
