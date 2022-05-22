@@ -12,115 +12,115 @@ const PhotoList = ({ category }) => {
         name: 'Grocery aisle',
         category: 'commercial',
         description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
+          'Fresh, healthy produce.'
       },
       {
         name: 'Grocery booth',
         category: 'commercial',
         description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
+          'Fresh, healthy produce.'
       },
       {
         name: 'Building exterior',
         category: 'commercial',
         description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
+          'Beautiful architectural design.'
       },
       {
         name: 'Restaurant table',
         category: 'commercial',
         description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
+          'Empty restaurant, waiting for you!'
       },
       {
         name: 'Cafe interior',
         category: 'commercial',
         description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
+          'Empty restaurant, waiting for you!'
       },
       {
         name: 'Cat green eyes',
         category: 'portraits',
         description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
+          'Beauty'
       },
       {
         name: 'Green parrot',
         category: 'portraits',
         description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
+          'Beauty'
       },
       {
         name: 'Yellow macaw',
         category: 'portraits',
         description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
+          'Beauty'
       },
       {
         name: 'Pug smile',
         category: 'portraits',
         description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
+          'Beauty'
       },
       {
         name: 'Pancakes',
         category: 'food',
         description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
+          'Deliciousness'
       },
       {
         name: 'Burrito',
         category: 'food',
         description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
+          'Deliciousness'
       },
       {
         name: 'Scallop pasta',
         category: 'food',
         description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
+          'Deliciousness'
       },
       {
         name: 'Burger',
         category: 'food',
         description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
+          'Deliciousness'
       },
       {
         name: 'Fruit bowl',
         category: 'food',
         description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
+          'Deliciousness'
       },
       {
         name: 'Green river',
         category: 'landscape',
         description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
+          'Natural beauty'
       },
       {
         name: 'Docks',
         category: 'landscape',
         description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
+          'Natural beauty'
       },
       {
         name: 'Panoramic village by sea',
         category: 'landscape',
         description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
+          'Natural beauty'
       },
       {
         name: 'Domestic landscape',
         category: 'landscape',
         description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
+          'Natural beauty'
       },
       {
         name: 'Park bench',
         category: 'landscape',
         description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
+          'Natural beauty'
       }
     ]);
   
